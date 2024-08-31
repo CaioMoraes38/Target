@@ -34,7 +34,7 @@ void imprimirSequenciaFibonacciRecursivo(int n, int pos = 1) {
     if (fib > n) return;  
     if (pos > 1) cout << ", ";
     cout << fib;
-    imprimirSequenciaFibonacciRecursivo(n, pos + 1);  // Chama recursivamente para o próximo valor
+    imprimirSequenciaFibonacciRecursivo(n, pos + 1);  
 }
 
 int main() {
